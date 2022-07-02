@@ -11,15 +11,26 @@
 
 <body>
     <div class="header">
-        Fun with triangles
-
+        <p style="text-align: left;"> Fun with triangles</p>
+        <nav>
+            <a href="/html/isTriangle.html">Is Triangle?</a>
+            <a href="../index.html">Quiz</a>
+            <a href="/html/hypotenuse.html">Hypotenuse</a>
+            <a href="/html/triangleArea.html">Area of Triangle</a>
+        </nav>
     </div>
     <div class="container">
 
-        <label for="heading" id="heading">Calculate Hypotenuse of a triangle</label>
-        <label for="base">Enter base value (a) =</label>
+        <label for="heading" id="heading">
+            <p class="heading">Calculate Hypotenuse of a triangle</p>
+        </label>
+        <label for="base">
+            <p>Enter base value (a) =</p>
+        </label>
         <input type="number" id="base">
-        <label for="height">Enter height value (b) =</label>
+        <label for="height">
+            <p>Enter height value (b) =</p>
+        </label>
         <input type="number" id="height">
         <input type="submit" id="submit" value="calculate">
 
@@ -27,7 +38,7 @@
     <p>Hypotenuse formula</p>
     <p>√(base² + height²)</p>
     <h2 id="message"></h2>
-    <footer>© | 2021 | vijayalakshmi</footer>
+    <footer style="position:absolute ;">© | 2021 | vijayalakshmi</footer>
     <script src="../js/calcHypotenuse.js"></script>
 
 </body>
