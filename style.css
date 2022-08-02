@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-footer {
-    text-align: center;
-    /* position: absolute; */
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-size: large;
-
-}
-
-/* footer p {
-    padding: 0.5px;
-    margin: none;
-} */
 
 * {
     padding: 0;
@@ -46,9 +32,10 @@ a {
 }
 
 label {
-    font-size: larger;
+    font-size: large;
     color: rgb(71, 4, 19);
     width: 256px;
+    font-weight: bold;
 }
 
 p {
@@ -57,10 +44,10 @@ p {
 }
 
 input {
-    font-size: 14px;
+
     outline: #fff;
     padding: 0.6rem 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
     border: 2px solid rgb(71, 4, 19);
     border-radius: 0.5rem;
     width: 100%;
@@ -79,7 +66,8 @@ input {
     cursor: pointer;
     outline: #fff;
     margin: 1rem auto;
-    display: block;
+    /* display: block; */
+
 }
 
 #message {
@@ -93,22 +81,29 @@ input {
     /* width: 85%; */
     margin: 1px auto;
     font-size: larger;
-    padding: 1px 0;
+    padding: 2rem;
     margin: 2px auto;
     /* width: 90%; */
     text-align: center;
+}
+
+.options {
+    margin-left: 1rem;
+    font-size: medium;
 }
 
 .Q {
     /* text-align: left; */
     width: 1%;
 
+
 }
 
 .heading {
     color: black;
     font-family: Verdana;
-    padding: 1rem;
+    /* padding: 1rem; */
+    text-align: center;
 
 
 }
@@ -122,4 +117,14 @@ input {
 .fa:hover,
 .material-icons:hover {
     color: rgb(71, 4, 19);
+}
+
+footer {
+    text-align: center;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: large;
+
 }
